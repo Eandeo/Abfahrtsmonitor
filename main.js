@@ -9,11 +9,10 @@ function APIrequest(){
 
 async function populate(stopId) {
 			const requestURL = 'https://www.wienerlinien.at/ogd_realtime/monitor?stopID=' + stopId;
-			const request = new Request(requestURL);
-
-			  const response = await fetch(request);
-			  const stop = await response.json();
-			  console.log(stop);
+async function getHaltepunkt(stopId) {
+	const response = await fetch(requestURL);
+	const stop = await response.json();
+	console.log(stop);
 
 
 	}
