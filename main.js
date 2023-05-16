@@ -19,7 +19,7 @@ async function getHaltepunkt(stopId) {
   }
  
   
-  /*const api_url = "https://api.openweathermap.org/data/2.5/weather?q=London";
+  const api_url = "https://api.openweathermap.org/data/2.5/weather?q=London";
   const api_key = "{d0e988e639ad087e7062b998e667f77d}"
   async function getweather(){
 	const response = await fetch(api_url + `&appid=${api_key}`);
@@ -27,6 +27,6 @@ async function getHaltepunkt(stopId) {
 	console.log(data);
   }
 
-  getweather();*/
+  getweather();
 
 
